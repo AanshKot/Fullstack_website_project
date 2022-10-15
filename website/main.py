@@ -5,7 +5,6 @@ from sqlalchemy import true
 
 from src import create_app
 
-from src import run
 
 app = create_app()
 
