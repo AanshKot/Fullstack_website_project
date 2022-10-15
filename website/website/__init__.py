@@ -50,11 +50,3 @@ def create_database(app):
         print('Created Database')
 
 
-def run():
-    app = create_app()
-
-    bool = True
-
-    if bool:
-        app.run(debug = True)
-
